@@ -164,9 +164,9 @@ DIVIDE(
 
 ## Project Documentation
 
-- [Phase 1: Business Problem & KPIs](6_Documentation/1_business_problem_and_kpis.pdf)
-- [Phase 5: SQL Analysis Summary](6_Documentation/2_SQL_analysis_summary.pdf)
-- [Phase 9: Business Insights Write-Up](6_Documentation/3_business_insights_writeup.pdf)
+- [Business Insights Write-Up](6_Documentation/3_business_insights_writeup.pdf)
+- [Business Problem & KPIs](6_Documentation/1_business_problem_and_kpis.pdf)
+- [SQL Analysis Summary](6_Documentation/2_SQL_analysis_summary.pdf)
 - [DAX Measures Reference](7_dax/measures.pdf)
 
 ---
