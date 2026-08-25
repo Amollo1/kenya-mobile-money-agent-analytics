@@ -11,7 +11,7 @@ conn = mysql.connector.connect(
 
 cursor = conn.cursor()
 tables = ['DimDate', 'DimLocation', 'DimProvider', 'DimCustomer', 'DimTransactionType', 'DimAgent', 'FactTransactions']
-os.makedirs('data/raw', exist_ok=True)
+os.makedirs('data/raw', exist_ok=True)~
 
 for table in tables:
     print(f"Exporting {table}...")
