@@ -164,10 +164,10 @@ DIVIDE(
 
 ## Project Documentation
 
-- [Phase 1: Business Problem & KPIs](documentation/PHASE1_business_problem_and_kpis.md)
-- [Phase 5: SQL Analysis Summary](documentation/PHASE5_sql_analysis_summary.md)
-- [Phase 9: Business Insights Write-Up](documentation/PHASE9_business_insights_writeup.md)
-- [DAX Measures Reference](dax/dax_measures.md)
+- [Phase 1: Business Problem & KPIs](6_Documentation/1_business_problem_and_kpis.pdf)
+- [Phase 5: SQL Analysis Summary](6_Documentation/2_SQL_analysis_summary.pdf)
+- [Phase 9: Business Insights Write-Up](6_Documentation/3_business_insights_writeup.pdf)
+- [DAX Measures Reference](7_dax/measures.pdf)
 
 ---
 
