@@ -164,7 +164,7 @@ DIVIDE(
 
 ## Project Documentation
 
-- [Business Insights Write-Up](6_Documentation/3_business_insights_writeup.pdf)
+- [Business Insights write-up](6_Documentation/3_business_insights_writeup.pdf)
 - [Business Problem & KPIs](6_Documentation/1_business_problem_and_kpis.pdf)
 - [SQL Analysis Summary](6_Documentation/2_SQL_analysis_summary.pdf)
 - [DAX Measures Reference](7_dax/measures.pdf)
@@ -178,7 +178,7 @@ IT Specialist | Data Analyst | Web Developer | AI Content Creator
 
 Experienced in Python, SQL, R, SPSS, Excel, Power BI, Tableau, databases, data engineering, web development, automation, and AI. This project was built end-to-end — data architecture, synthetic data engineering, SQL analysis, DAX, and dashboard design — as a demonstration of full-stack analytics capability for data/BI roles.
 
-[LinkedIn](#) · [Portfolio](#) · [Email](#)
+[LinkedIn](https://www.linkedin.com/in/benard-omoga-870b77145/) · [Portfolio](https://amollo1.github.io/) · [Email](benardomoga86@gmail.com)
 
 ---
 
