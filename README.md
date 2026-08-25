@@ -14,13 +14,13 @@ Kenya's mobile-money agent network has grown rapidly; CBK reported 381,116 activ
 
 *All CBK/industry figures above are public statistics used only to ground realistic assumptions. All transaction-level data in this project is synthetic and does not represent Safaricom, Airtel, or any bank's actual data.*
 
-📄 **[Read the full Business Insights write-up →](documentation/PHASE9_business_insights_writeup.md)**
+📄 **[Read the full Business Insights write-up →](6_Documentation/3_business_insights_writeup.pdf)**
 
 ---
 
 ## What This Project Demonstrates
 
-- **Database design:** A dimensional (star schema) model in MySQL — one fact table, five dimension tables
+- **Database design:** A dimensional (star schema) model in MySQL; one fact table, five dimension tables
 - **Data engineering:** A Python pipeline generating 1,000,000 statistically realistic synthetic transactions (log-normal amount distributions, weighted provider/transaction-type probabilities grounded in real Kenyan market share data)
 - **SQL analysis:** 10 exploratory queries answering specific business questions, with documented findings
 - **BI development:** A 2-page Power BI dashboard with 15 DAX measures, synced cross-page filters, custom tooltips, a dynamic insight card, and in-app page navigation
@@ -33,18 +33,18 @@ Kenya's mobile-money agent network has grown rapidly; CBK reported 381,116 activ
 ### Executive Overview
 High-level KPIs, revenue trend, provider comparison, and transaction type profitability.
 
-![Executive Overview](images/02-executive-overview.png)
+![Executive Overview](4_Images/02_executive_overview.jpeg)
 
 ### Geographic Intelligence
 County-level performance, agent saturation analysis, and a revenue map.
 
-![Geographic Intelligence](images/06-geographic-intelligence.png)
+![Geographic Intelligence](4_Images/06_geographic_intelligence.jpeg)
 
-**Key visual — Revenue per Agent by County:**
+**Key visual: Revenue per Agent by County:**
 
-![Scatter Plot](images/07-scatter-plot.png)
+![Scatter Plot](4_Images/07_scatter_plot.jpeg)
 
-This scatter plot was the project's most important analytical finding: revenue per agent stays broadly flat (~KES 3,500–3,900) regardless of how many agents operate in a county. The initial hypothesis — that dense urban markets like Nairobi would show diminishing per-agent returns — was **not** strongly supported by the data, and the write-up reports that honestly rather than forcing the original narrative.
+This scatter plot was the project's most important analytical finding: revenue per agent stays broadly flat (~KES 3,500–3,900) regardless of how many agents operate in a county. The initial hypothesis; that dense urban markets like Nairobi would show diminishing per-agent returns, was **not** strongly supported by the data, and the write-up reports that honestly rather than forcing the original narrative.
 
 ---
 
@@ -62,7 +62,7 @@ This scatter plot was the project's most important analytical finding: revenue p
 
 ## Data Model
 
-![Star Schema](images/01-star-schema.png)
+![Star Schema](4_Images/01_star_schema.webp)
 
 A classic star schema: **FactTransactions** (1,000,000 rows) at the center, surrounded by **DimDate**, **DimAgent**, **DimCustomer**, **DimProvider**, and **DimTransactionType**. **DimLocation** connects through DimAgent (agents are assigned to a location; transactions inherit location context through their agent).
 
@@ -85,11 +85,11 @@ A classic star schema: **FactTransactions** (1,000,000 rows) at the center, surr
 | Overall profitability | 88% net revenue margin on KES 41.6M gross revenue |
 | Provider mix | M-Pesa ~79.5% of volume, but no single-provider revenue dependency |
 | Volume ≠ profit | Bank Transfer is low-volume but disproportionately profitable per transaction |
-| Agent concentration | Top 10 agents (of 10,000) show a tight revenue spread — no extreme outliers |
-| Geographic saturation | **Not observed** — revenue per agent is stable across county sizes |
+| Agent concentration | Top 10 agents (of 10,000) show a tight revenue spread; no extreme outliers |
+| Geographic saturation | **Not observed**; revenue per agent is stable across county sizes |
 | Reliability | 95.98% transaction success rate |
 
-Full detail, interpretation, and strategic recommendations in the [Business Insights write-up](documentation/PHASE9_business_insights_writeup.md).
+Full detail, interpretation, and strategic recommendations in the [Business Insights write-up](6_Documentation/3_business_insights_writeup.pdf).
 
 ---
 
@@ -111,7 +111,7 @@ kenya-mobile-money-agent-analytics/
 └── dax/                       # All 15 DAX measures with descriptions
 ```
 
-**Note:** `FactTransactions.csv` (~69MB, 1M rows) is excluded from this repo to keep it lightweight. Run `python/04_generate_transactions_CORRECTED.py` locally against the provided schema to reproduce the full dataset.
+
 
 ---
 
@@ -149,7 +149,7 @@ kenya-mobile-money-agent-analytics/
 
 ## DAX Measures
 
-15 measures covering financial performance, rates/margins, status breakdowns, and geographic callouts. Full formulas and descriptions in [`dax/dax_measures.md`](dax/dax_measures.md).
+15 measures covering financial performance, rates/margins, status breakdowns, and geographic callouts. Full formulas and descriptions in [`dax/dax_measures.md`](7_dax/measures.pdf).
 
 Highlight — the KPI most directly tied to the business question:
 ```dax
