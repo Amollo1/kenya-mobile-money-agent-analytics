@@ -1,0 +1,10 @@
+TransactionTypeID,TransactionType,Category
+1,Cash Deposit,Cash
+2,Cash Withdrawal,Cash
+3,Send Money,Transfer
+4,Bill Payment,Payment
+5,Airtime Purchase,Payment
+6,Merchant Payment,Payment
+7,Bank Transfer,Banking
+8,Account Deposit,Banking
+9,Account Withdrawal,Banking

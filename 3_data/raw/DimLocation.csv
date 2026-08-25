@@ -1,0 +1,104 @@
+LocationID,County,SubCounty,UrbanRural,Region
+1,Nairobi,Westlands,Urban,Nairobi
+2,Nairobi,Dagoretti North,Urban,Nairobi
+3,Nairobi,Langata,Urban,Nairobi
+4,Nairobi,Kasarani,Urban,Nairobi
+5,Nairobi,Embakasi East,Urban,Nairobi
+6,Nairobi,Kamukunji,Urban,Nairobi
+7,Kiambu,Thika Town,Urban,Central
+8,Kiambu,Ruiru,Rural,Central
+9,Kiambu,Kiambu Town,Rural,Central
+10,Kiambu,Limuru,Rural,Central
+11,Murang'a,Murang'a Town,Urban,Central
+12,Murang'a,Kangema,Rural,Central
+13,Nyeri,Nyeri Town,Urban,Central
+14,Nyeri,Mathira,Rural,Central
+15,Kirinyaga,Kerugoya,Urban,Central
+16,Kirinyaga,Mwea,Rural,Central
+17,Nyandarua,Ol Kalou,Urban,Central
+18,Nyandarua,Ol Joro Orok,Rural,Central
+19,Mombasa,Mvita,Urban,Coast
+20,Mombasa,Nyali,Urban,Coast
+21,Mombasa,Likoni,Urban,Coast
+22,Kwale,Kwale Town,Urban,Coast
+23,Kwale,Msambweni,Rural,Coast
+24,Kilifi,Kilifi Town,Urban,Coast
+25,Kilifi,Malindi,Rural,Coast
+26,Tana River,Hola,Urban,Coast
+27,Tana River,Garsen,Rural,Coast
+28,Lamu,Lamu Town,Urban,Coast
+29,Lamu,Faza,Rural,Coast
+30,Taita-Taveta,Voi,Urban,Coast
+31,Taita-Taveta,Taveta,Rural,Coast
+32,Machakos,Machakos Town,Urban,Eastern
+33,Machakos,Athi River,Rural,Eastern
+34,Makueni,Wote,Urban,Eastern
+35,Makueni,Kibwezi,Rural,Eastern
+36,Kitui,Kitui Town,Urban,Eastern
+37,Kitui,Mwingi,Rural,Eastern
+38,Embu,Embu Town,Urban,Eastern
+39,Embu,Runyenjes,Rural,Eastern
+40,Tharaka-Nithi,Chuka,Urban,Eastern
+41,Tharaka-Nithi,Marimanti,Rural,Eastern
+42,Meru,Meru Town,Urban,Eastern
+43,Meru,Nkubu,Rural,Eastern
+44,Isiolo,Isiolo Town,Urban,Eastern
+45,Isiolo,Merti,Rural,Eastern
+46,Marsabit,Marsabit Town,Urban,Eastern
+47,Marsabit,Moyale,Rural,Eastern
+48,Garissa,Garissa Town,Urban,North Eastern
+49,Garissa,Dadaab,Rural,North Eastern
+50,Wajir,Wajir Town,Urban,North Eastern
+51,Wajir,Habaswein,Rural,North Eastern
+52,Mandera,Mandera Town,Urban,North Eastern
+53,Mandera,El Wak,Rural,North Eastern
+54,Kisumu,Kisumu Central,Urban,Nyanza
+55,Kisumu,Kisumu West,Rural,Nyanza
+56,Kisumu,Nyando,Rural,Nyanza
+57,Siaya,Siaya Town,Urban,Nyanza
+58,Siaya,Bondo,Rural,Nyanza
+59,Homa Bay,Homa Bay Town,Urban,Nyanza
+60,Homa Bay,Mbita,Rural,Nyanza
+61,Migori,Migori Town,Urban,Nyanza
+62,Migori,Rongo,Rural,Nyanza
+63,Kisii,Kisii Town,Urban,Nyanza
+64,Kisii,Nyamache,Rural,Nyanza
+65,Nyamira,Nyamira Town,Urban,Nyanza
+66,Nyamira,Borabu,Rural,Nyanza
+67,Nakuru,Nakuru Town East,Urban,Rift Valley
+68,Nakuru,Nakuru Town West,Rural,Rift Valley
+69,Nakuru,Naivasha,Rural,Rift Valley
+70,Uasin Gishu,Eldoret East,Urban,Rift Valley
+71,Uasin Gishu,Eldoret West,Rural,Rift Valley
+72,Trans Nzoia,Kitale,Urban,Rift Valley
+73,Trans Nzoia,Kwanza,Rural,Rift Valley
+74,Kericho,Kericho Town,Urban,Rift Valley
+75,Kericho,Bureti,Rural,Rift Valley
+76,Bomet,Bomet Central,Urban,Rift Valley
+77,Bomet,Chepalungu,Rural,Rift Valley
+78,Nandi,Kapsabet,Urban,Rift Valley
+79,Nandi,Nandi Hills,Rural,Rift Valley
+80,Baringo,Kabarnet,Urban,Rift Valley
+81,Baringo,Marigat,Rural,Rift Valley
+82,Laikipia,Nanyuki,Urban,Rift Valley
+83,Laikipia,Rumuruti,Rural,Rift Valley
+84,Narok,Narok Town,Urban,Rift Valley
+85,Narok,Kilgoris,Rural,Rift Valley
+86,Kajiado,Kajiado Town,Urban,Rift Valley
+87,Kajiado,Ngong,Rural,Rift Valley
+88,Turkana,Lodwar,Urban,Rift Valley
+89,Turkana,Kakuma,Rural,Rift Valley
+90,West Pokot,Kapenguria,Urban,Rift Valley
+91,West Pokot,Sigor,Rural,Rift Valley
+92,Samburu,Maralal,Urban,Rift Valley
+93,Samburu,Baragoi,Rural,Rift Valley
+94,Elgeyo-Marakwet,Iten,Urban,Rift Valley
+95,Elgeyo-Marakwet,Kapsowar,Rural,Rift Valley
+96,Kakamega,Kakamega Town,Urban,Western
+97,Kakamega,Mumias,Rural,Western
+98,Bungoma,Bungoma Town,Urban,Western
+99,Bungoma,Webuye,Rural,Western
+100,Busia,Busia Town,Urban,Western
+101,Busia,Malaba,Rural,Western
+102,Vihiga,Vihiga Town,Urban,Western
+103,Vihiga,Luanda,Rural,Western
