@@ -4,8 +4,8 @@ import os
 
 conn = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="ben1@amollo123",
+    user="your user",
+    password="database Pasword",
     database="kenya_mobile_money"
 )
 
