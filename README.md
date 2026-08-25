@@ -1,14 +1,14 @@
 # Kenya Mobile Money & Agent Network Analytics
 
-**A full-stack data analytics portfolio project** — from synthetic data generation through a dimensional database model to an interactive Power BI dashboard — analyzing the profitability and geographic performance of a simulated Kenyan mobile-money agent network.
+**A full-stack data analytics portfolio project**; from synthetic data generation through a dimensional database model to an interactive Power BI dashboard, analyzing the profitability and geographic performance of a simulated Kenyan mobile-money agent network.
 
-![Executive Overview](images/02_executive_overview.jpeg)
+![Executive Overview](4_Images/02_executive_overview.jpeg)
 
 ---
 
 ## Business Problem
 
-Kenya's mobile-money agent network has grown rapidly — CBK reported 381,116 active agents in 2024, rising to 473,536 by December 2025, processing roughly KSh 722.5 billion in monthly transaction value. But growth in agent numbers has not translated into growth in agent economics: average annual M-Pesa agent commissions fell to approximately KSh 112,244 for the year ended March 2026.
+Kenya's mobile-money agent network has grown rapidly; CBK reported 381,116 active agents in 2024, rising to 473,536 by December 2025, processing roughly KSh 722.5 billion in monthly transaction value. But growth in agent numbers has not translated into growth in agent economics: average annual M-Pesa agent commissions fell to approximately KSh 112,244 for the year ended March 2026.
 
 **Central question:** How profitable is the agent network, where is it performing well, and where is it losing money or facing operational risk?
 
