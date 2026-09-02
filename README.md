@@ -178,7 +178,7 @@ IT Specialist | Data Analyst | Web Developer | AI Content Creator
 
 Experienced in Python, SQL, R, SPSS, Excel, Power BI, Tableau, databases, data engineering, web development, automation, and AI. This project was built end-to-end — data architecture, synthetic data engineering, SQL analysis, DAX, and dashboard design — as a demonstration of full-stack analytics capability for data/BI roles.
 
-[LinkedIn](https://www.linkedin.com/in/benard-omoga-870b77145/) · [Portfolio](https://amollo1.github.io/) · [Portfolio](https://www.youtube.com/watch?v=HYNL4RsWCZg)
+[LinkedIn](https://www.linkedin.com/in/benard-omoga-870b77145/) · [Portfolio](https://amollo1.github.io/) · [YouTube](https://www.youtube.com/watch?v=HYNL4RsWCZg)
 
 ---
 
